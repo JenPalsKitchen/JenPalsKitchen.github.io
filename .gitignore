@@ -1,0 +1,6 @@
+#ignore built site
+_site/**
+
+#ignore editor things
+.vscode/**
+
