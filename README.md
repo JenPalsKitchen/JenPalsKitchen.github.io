@@ -15,3 +15,6 @@ Twitch Mondays and Wednesdays 6PM EST cooking dinner, making dessert or doing ot
 **TikTok:** [@JenPalsKitchen](https://www.tiktok.com/@jenpalskitchen/)
 
 **Discord:** [Discord Invite](https://discord.gg/yFRF5j9)
+
+<div class="embedsocial-hashtag" data-ref="4ca9e5fb77347aaabbcdd31cd204e634aa53957a"></div>
+
