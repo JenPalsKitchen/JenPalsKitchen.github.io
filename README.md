@@ -6,7 +6,7 @@ This site is a work in progress, so check in later!
 
 In the meantime you can find me at:
 
-Twitch Mondays and Wednesdays 6PM EST cooking dinner, making dessert or doing other shenanogans at https://www.twitch.tv/jenpalskitchen 
+Twitch Mondays and Wednesdays 6PM EST cooking dinner, making dessert or doing other shenanogans at [https://www.twitch.tv/jenpalskitchen](https://www.twitch.tv/jenpalskitchen)
 
 **Stream Instagram:** [@JenPalsKitchen](https://www.instagram.com/jenpalskitchen/)
 
