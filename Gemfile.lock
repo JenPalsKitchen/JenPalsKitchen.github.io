@@ -280,6 +280,9 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-paginate
+  jekyll-sitemap
+  tzinfo-data
   webrick (~> 1.7)
 
 BUNDLED WITH
