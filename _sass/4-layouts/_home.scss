@@ -117,7 +117,7 @@
 }
 
 .nav-menu .menu-link,
-.nav-buttons i.ion {
+.nav-buttons ion-icon {
   transition: color $global-transition;
   &:hover {
     color: #fff;
@@ -125,7 +125,7 @@
 }
 
 .nav-buttons {
-  i.ion {
+  ion-icon {
     margin-left: 10px;
     font-size: 20px;
     vertical-align: middle;
@@ -455,7 +455,7 @@
     }
   }
   .nav-menu .menu-link,
-  .nav-buttons i.ion {
+  .nav-buttons ion-icon {
     transition: color $global-transition;
     &:hover {
       color: #fff;

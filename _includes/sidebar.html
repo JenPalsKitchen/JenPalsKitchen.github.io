@@ -26,33 +26,58 @@
   <div class="widget widget-social">
     <h3 class="widget-title">Subscribe & Follow</h3>
     <ul class="social-profiles list-reset">
-      {% if site.facebook %}
+      {% if site.twitch %}
       <li class="social-profiles-item">
-        <a href="{{ site.facebook }}" class="social-profiles-link"><i class="ion ion-logo-facebook"></i></a>
+        <a href="{{ site.twitch }}" class="social-profiles-link"><ion-icon name="logo-twitch"></ion-icon></a>
       </li>
       {% else %} {% endif %}
 
-       {% if site.twitter %}
+      {% if site.facebook %}
       <li class="social-profiles-item">
-        <a href="{{ site.twitter }}" class="social-profiles-link"><i class="ion ion-logo-twitter"></i></a>
+        <a href="{{ site.facebook }}" class="social-profiles-link"><ion-icon name="logo-facebook"></ion-icon></a>
+      </li>
+      {% else %} {% endif %}
+
+      {% if site.twitter %}
+      <li class="social-profiles-item">
+        <a href="{{ site.twitter }}" class="social-profiles-link"><ion-icon name="logo-twitter"></ion-icon></a>
       </li>
       {% else %} {% endif %}
 
       {% if site.instagram %}
       <li class="social-profiles-item">
-        <a href="{{ site.instagram }}" class="social-profiles-link"><i class="ion ion-logo-instagram"></i></a>
+        <a href="{{ site.instagram }}" class="social-profiles-link"><ion-icon name="logo-instagram"></ion-icon></a>
+      </li>
+      {% else %} {% endif %}
+
+      {% if site.instagram2 %}
+      <li class="social-profiles-item">
+        <a href="{{ site.instagram2 }}" class="social-profiles-link"><ion-icon name="logo-instagram"></ion-icon></a>
+      </li>
+      {% else %} {% endif %}
+
+      {% if site.tiktok %}
+      <li class="social-profiles-item">
+        <a href="{{ site.tiktok }}" class="social-profiles-link"><ion-icon name="logo-tiktok"></ion-icon></a>
+      </li>
+      {% else %} {% endif %}
+
+      {% if site.discord %}
+      <li class="social-profiles-item">
+        <a href="{{ site.discord }}" class="social-profiles-link"><ion-icon name="logo-discord"></ion-icon></a>
       </li>
       {% else %} {% endif %}
 
       {% if site.pinterest %}
       <li class="social-profiles-item">
-        <a href="{{ site.pinterest }}" class="social-profiles-link"><i class="ion ion-logo-pinterest"></i></a>
+        <a href="{{ site.pinterest }}" class="social-profiles-link"><ion-icon name="logo-pinterest"></ion-icon></a>
       </li>
       {% else %} {% endif %}
     </ul>
   </div>
 
-  <!-- <div class="widget widget-newsletter">
+  {% if site.mailchimp %}
+  <div class="widget widget-newsletter">
     <h3 class="widget-title">Newsletter</h3>
     <div class="newsletter-subtitle">Get Interesting News</div>
     <div class="newsletter-text">Receive the latest news via email.</div>
@@ -61,16 +86,18 @@
       <div class="newsletter-group">
         <div class="newsletter-group-top">
           <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
-          <i class="email-icon ion ion-ios-mail"></i>
+          <ion-icon name="mail-outline" class="email-icon"></ion-icon>
+          <!-- <ion-icon name="ios-mail"  ion ion-ios-mail"></ion-icon> -->
           <input class="newsletter-email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="E-mail">
         </div>
         <input class="newsletter-button" id="mc-embedded-subscribe" type="submit" name="subscribe" value="Subscribe">
       </div>
     </form>
-  </div> -->
+  </div>
+  {% endif %}
 
   {% if site.instafeed == true %}
-  <div class="widget widget-instagram">
+  <div class="widget widget-instagram"> 
     <h3 class="widget-title">Instagram</h3>
     <div class="instagram-box">
       <ul id="instafeed" class="instagram-grid list-reset clearfix"></ul>
