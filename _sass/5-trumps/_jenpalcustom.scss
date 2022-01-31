@@ -70,12 +70,12 @@ $logo-dimensions: 32px;
 }
 
 // Twitch embed stuff 
-.twich-container{
-    padding-bottom: $base-spacing-unit
+.twich-container > .row{
+    padding: 0 $base-spacing-unit;
 }
 
 .twitch-embed {
-    width: 90vw;
+    width: 100%;
     margin: auto;
     text-align: left;
 }
