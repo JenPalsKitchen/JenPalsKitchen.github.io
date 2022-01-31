@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Welcome to Jen Pal's new Home!"
+title:  Welcome to Jen Pal's new Home!
 image:  cookies.jpg
 tags:   [Welcome, Twitch]
 ---
