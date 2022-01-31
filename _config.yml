@@ -74,3 +74,20 @@ sass:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+# --------------------------
+# Define defaults so we don't have to type so much
+# --------------------------
+
+defaults:
+  -
+    scpope:
+      path: "_posts"
+    values:
+      image: "dough-unsplash.jpg" 
+  -
+    scpope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: page
+      image: ""

@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="container">
 	<div class="row">
-		{% if page.image %} 
+		{% if page.image and page.image != "" %} 
 		<div class="col col-12">
 			<div class="page-image-box">
 				<div class="page-image" style="background-image: url({{"/img/" | prepend: site.baseurl | append : page.image}})"></div>
