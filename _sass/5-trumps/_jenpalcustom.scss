@@ -62,3 +62,54 @@ $logo-dimensions: 32px;
 .footer {
     margin-top: auto;
 }
+
+// Twitch embed stuff 
+.twich-container{
+    padding-bottom: $base-spacing-unit
+}
+
+.twitch-embed {
+    width: 90vw;
+    margin: auto;
+    text-align: left;
+}
+
+.twitch-embed .twitch-video {
+    padding-top: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.twitch-embed .twitch-video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.twitch-embed .twitch-chat {
+    height: 400px;
+}
+
+.twitch-embed .twitch-chat iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 850px) {
+    .twitch-embed {
+        position: relative;
+    }
+    .twitch-embed .twitch-video {
+        width: 75%;
+        padding-top: 42.1875%;
+    }
+    .twitch-embed .twitch-chat {
+        width: 25%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
