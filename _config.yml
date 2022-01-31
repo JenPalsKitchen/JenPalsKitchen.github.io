@@ -4,6 +4,7 @@ title: Jen Pal's Kitchen
 description: Here you can find recipes I like, equipment I use/reccomend and other places on the internet you can find me!
 # baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+home-icon: "img/kitchen-gradient.svg"
 
 
 #-------------------------------
