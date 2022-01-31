@@ -1,6 +1,7 @@
 ---
 title: "Mocktail Hot Buttered Rum"
 tags: [Recipe, Drink]
+image: buttered-rum.jpg
 ---
 I was participating in dry January but wanted to give hot buttered rum a go so in lieu of the traditional rum and hot water I used [vanilla chai tea](https://amzn.to/3AE6uLQ). 
 
