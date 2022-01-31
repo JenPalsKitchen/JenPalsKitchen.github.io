@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jen Pal's new Home!"
-# date:   2018-05-29 18:05:55 +0300
+title:  Welcome to Jen Pal's new Home!"
 image:  cookies.jpg
 tags:   [Welcome, Twitch]
 ---
