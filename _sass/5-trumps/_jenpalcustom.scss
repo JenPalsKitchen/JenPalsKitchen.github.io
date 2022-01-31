@@ -13,17 +13,20 @@ $logo-dimensions: 32px;
 
 .logo-text {
     position: relative;
-    margin-left: $logo-dimensions + $base-spacing-unit;
+    // margin-left: $logo-dimensions + $base-spacing-unit;
 
     &::before {
-        display: block;
-        position: absolute;
+        display: inline-block;
+        position: relative;
         bottom: 0px;
         content: "";
         background-image: url("/img/whisk-min.svg");
+        background-repeat: no-repeat;
         background-size: $logo-dimensions $logo-dimensions;
         height: $logo-dimensions;
         width: $logo-dimensions;
+        padding-right: $logo-dimensions + $base-spacing-unit;
+        vertical-align: text-bottom;
     }
 }
 
