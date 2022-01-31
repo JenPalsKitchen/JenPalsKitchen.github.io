@@ -63,6 +63,9 @@ $logo-dimensions: 32px;
 }
 
 .footer {
+    // this footer override of auto is necessary to make sure we fill up empty space
+    // in the design between short content and the footer so it doesn't float in the
+    // middle of the page
     margin-top: auto;
 }
 
