@@ -74,6 +74,19 @@ sass:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# --------------------------
+# Define new collections 
+# --------------------------
+collections:
+  posts:
+    output: true
+  recipies:
+    output: true
+  drinks:
+    output: true
+
 # --------------------------
 # Define defaults so we don't have to type so much
 # --------------------------
@@ -82,8 +95,11 @@ defaults:
   -
     scpope:
       path: "_posts"
+      type: "posts"
     values:
       image: "dough-unsplash.jpg" 
+      category: blog post
+      tags: [blogpost]
   -
     scpope:
       path: "_pages"
@@ -91,3 +107,12 @@ defaults:
     values:
       layout: page
       image: ""
+  -
+    scope:
+      type: "posts"
+      path: "_posts/recipes"
+    values:
+      image: "dough-unsplash.jpg" 
+      # layout: pages
+      tags: ["recipe",recipes]
+
