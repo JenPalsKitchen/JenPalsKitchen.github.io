@@ -83,7 +83,7 @@ sass:
 collections:
   posts:
     output: true
-  recipies:
+  recipes:
     output: true
   drinks:
     output: true
