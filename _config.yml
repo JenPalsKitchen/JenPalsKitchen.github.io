@@ -1,3 +1,118 @@
-theme: jekyll-theme-cayman
+#-------------------------------
+# General Site Settings
 title: Jen Pal's Kitchen
 description: Here you can find recipes I like, equipment I use/reccomend and other places on the internet you can find me!
+# baseurl: "/" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+home-icon: "img/kitchen-gradient.svg"
+
+
+#-------------------------------
+# About Section
+author-name: Jennifer
+author-avatar: jen-icon.jpg
+
+
+#-------------------------------
+# Contact links
+# facebook:   https://twitter.com/ # Add your Facebook handle
+# twitter:    https://twitter.com/ # Add your twitter handle
+# pinterest:  https://www.pinterest.com/ # Add your pinterest handle
+twitch:     https://twitch.tv/JenPalsKitchen # Add your twitch handle
+instagram:  https://www.instagram.com/JenPalsKitchen # Add your instagram handle
+instagram2: https://www.instagram.com/JensBakedGoods # Add your 2nd instagram handle
+tiktok:     https://tiktok.com/@JenPalsKitchen  #Add your tiktok handle
+discord:    https://discord.gg/yFRF5j9  #Add your discord invite link
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier:  # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Instagram Feed
+instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Newsletter
+#mailchimp:  # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+
+#-------------------------------
+# Build settings
+markdown: kramdown
+# permalink: ':title/'
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 7
+paginate_path: "/page/:num"
+
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+#-------------------------------
+# Exclude from processing.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+
+# --------------------------
+# Define new collections 
+# --------------------------
+collections:
+  posts:
+    output: true
+  recipies:
+    output: true
+  drinks:
+    output: true
+
+# --------------------------
+# Define defaults so we don't have to type so much
+# --------------------------
+
+defaults:
+  -
+    scpope:
+      path: "_posts"
+      type: "posts"
+    values:
+      image: "dough-unsplash.jpg" 
+      category: blog post
+      tags: [blogpost]
+  -
+    scpope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: page
+      image: ""
+  -
+    scope:
+      type: "posts"
+      path: "_posts/recipes"
+    values:
+      image: "dough-unsplash.jpg" 
+      # layout: pages
+      tags: ["recipe",recipes]
+
