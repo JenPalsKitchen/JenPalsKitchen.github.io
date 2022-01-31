@@ -48,6 +48,7 @@ google-analytics: # Add your identifier. For example UA-99631805-1.
 #-------------------------------
 # Build settings
 markdown: kramdown
+host: 0.0.0.0  # allow from all local ips for mobile testing github should ignore this
 # permalink: ':title/'
 plugins:
   - jekyll-paginate
