@@ -20,7 +20,7 @@ _Disclosure: Some of the links below are affiliate links meaning, at no addition
 * For 
 * More
 
-##Baking Equipment
+## Baking Equipment
 * [Insulated Baking Sheet - Large](https://amzn.to/3onii0g)
 * [Pampered Chef Cookie Scoops](https://amzn.to/34dZzNL)
 * [Portable Projector I use for cookies](https://amzn.to/3gp0Gga)
