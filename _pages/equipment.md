@@ -64,3 +64,10 @@ _Disclosure: Some of the links below are affiliate links meaning, at no addition
 
 ## Misc
 * [Pet Carrier Hoodie](https://amzn.to/3L8X4gs)
+
+## Stream Software / Websites 
+* [Twitch Panels](https://nerdordie.com/resources/free-resources/customizable-twitch-panels/#panel-maker)
+* [Captions](https://github.com/ratwithacompiler/OBS-captions-plugin/releases)
+* [Virtual Cam](https://obsproject.com/forum/resources/obs-virtualcam.539/)- share view from obs to other software (ie Discord)
+* [Streamer.bot](https://streamer.bot/)
+* [Streamlabs bot auto shout out tutorial](https://www.youtube.com/watch?v=ONHFth4eQtU)
