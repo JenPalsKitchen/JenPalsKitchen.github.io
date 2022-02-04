@@ -5,7 +5,7 @@ image: mixer-gradient.svg
 permalink: /equipment/
 ---
 _Disclosure: Some of the links below are affiliate links meaning, at no additional cost to you, I will earn a commission if you click through and make a purchase._
-# Eqipment I use on stream 
+# Equipment I use on Stream 
 
 ## Cooking Equipment 
 * [KitchenAid Mixer](https://amzn.to/3KY7SxA)
