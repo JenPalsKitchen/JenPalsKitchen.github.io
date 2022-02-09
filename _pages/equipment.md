@@ -68,6 +68,8 @@ _Disclosure: Some of the links below are affiliate links meaning, at no addition
 ## Stream Software / Websites 
 * [Twitch Panels](https://nerdordie.com/resources/free-resources/customizable-twitch-panels/#panel-maker)
 * [Captions](https://github.com/ratwithacompiler/OBS-captions-plugin/releases)
-* [Virtual Cam](https://obsproject.com/forum/resources/obs-virtualcam.539/)- share view from obs to other software (ie Discord)
+* [Virtual Cam](https://obsproject.com/forum/resources/obs-virtualcam.539/)- share view from obs to other software as webcam (ie Discord)
 * [Streamer.bot](https://streamer.bot/)
 * [Streamlabs bot auto shout out tutorial](https://www.youtube.com/watch?v=ONHFth4eQtU)
+* [Add Patreon Alerts to StreamElements](https://www.youtube.com/watch?v=kHXXXF0DYBM)
+* [Treating each app differently for OBS Audio](https://github.com/bozbez/win-capture-audio/releases/) (ie chatbot/tts in my ears not on stream!)
