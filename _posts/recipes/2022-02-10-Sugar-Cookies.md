@@ -5,15 +5,16 @@ image:
 ---
 _Disclosure: Some of the links below are affiliate links meaning, at no additional cost to you, I will earn a commission if you click through and make a purchase._
 
-This is my current sugar cookie recipe! I got some inspiration many years ago, but have tweaked this quite a lot and do not recall the original poster unfortunately as this has spent much time in my notebook.  
+This is my current sugar cookie recipe! I got some inspiration from [Baking with Kids](https://themotheroverload.com/baking-with-kids-eggless-sugar-cookies/), but have tweaked this quite a bit as this has spent much time in my notebook over the years.
+
 Time: 
-30 minutes to make the dough
-2 hr cooling
-1 hour to cut and bake
+* 30 minutes to make the dough
+* 2 hr cooling
+* 1 hour to cut and bake
 
 Recipe makes around 
 * 60 3 in, 1/4 thick circle sugar cookies
-_Will revise as I make this recipe in the future._ 
+_(Will revise as I make this recipe in the future.)_ 
 
 ## Ingredients: 
 * 672g All Purpose Flour
