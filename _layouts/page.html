@@ -1,12 +1,18 @@
 ---
 layout: default
 ---
+{% if  page.image contains  "svg" %}
+	{% assign svgclass = "svg" %}
+{% endif %}
+
+
 <div class="container">
 	<div class="row">
 		{% if page.image and page.image != "" %} 
 		<div class="col col-12">
 			<div class="page-image-box">
-				<div class="page-image" style="background-image: url({{"/img/" | prepend: site.baseurl | append : page.image}})"></div>
+				<!-- if page.image ends in .svg add stylle class -->
+				<div class="page-image {{svgclass}}" style="background-image: url({{"/img/" | prepend: site.baseurl | append : page.image}})"></div>
 			</div>
 		</div>
 		{% endif %}
