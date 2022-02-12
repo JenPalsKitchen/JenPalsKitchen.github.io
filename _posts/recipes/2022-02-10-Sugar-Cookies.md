@@ -20,12 +20,8 @@ _(Will revise as I make this recipe in the future.)_
 * 672g All Purpose Flour
 * 6g (3/4 tsp) Salt 
 * 21g (2 tsp) Baking Powder
-
-
 * 150g White Sugar
 * 3 Sticks Unsalted Butter, room temperature
-
-
 * 9 tbsp (1/2c+1tbsp) of almond milk (or other milk) 
 * 2.5 tsp [Vanilla Extract](https://amzn.to/3sfBM85)
 * 1.5 tsp Almond Extract
