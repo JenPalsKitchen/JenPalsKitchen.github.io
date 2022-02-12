@@ -45,7 +45,7 @@ _(Will revise as I make this recipe in the future.)_
 11. Allow to cool on the pan for about 5 minutes to continue to bake through. 
 12. Transer to a cooling rack, if you allow to cool completely on the tray the texture of the bottoms of the cookies will get strange. 
 
-##Recommended Equiptment 
+## Recommended Equipment 
 * [Silicone baking mat](https://amzn.to/3sw03H6)
 * [Rolling pin with thickness rings](https://amzn.to/3ATF8BG)
 * [Insulated baking sheet - large](https://amzn.to/3onii0g)
