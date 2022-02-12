@@ -93,3 +93,7 @@
 .screen-reader-text {
 	@include screen-reader();
 }
+
+.italic{
+	font-style: italic;
+}

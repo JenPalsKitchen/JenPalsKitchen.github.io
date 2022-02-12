@@ -49,7 +49,7 @@ google-analytics: # Add your identifier. For example UA-99631805-1.
 # Build settings
 markdown: kramdown
 host: 0.0.0.0  # allow from all local ips for mobile testing github should ignore this
-# permalink: ':title/'
+permalink: pretty
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -77,16 +77,6 @@ sass:
 #   - vendor/ruby/
 
 
-# --------------------------
-# Define new collections 
-# --------------------------
-collections:
-  posts:
-    output: true
-  recipes:
-    output: true
-  drinks:
-    output: true
 
 # --------------------------
 # Define defaults so we don't have to type so much
@@ -94,15 +84,14 @@ collections:
 
 defaults:
   -
-    scpope:
+    scope:
       path: "_posts"
-      type: "posts"
     values:
       image: "dough-unsplash.jpg" 
-      category: blog post
-      tags: [blogpost]
+      tags: ["blog post"]
+      category: [blog]
   -
-    scpope:
+    scope:
       path: "_pages"
       type: "pages"
     values:
@@ -110,10 +99,15 @@ defaults:
       image: ""
   -
     scope:
-      type: "posts"
       path: "_posts/recipes"
     values:
       image: "dough-unsplash.jpg" 
-      # layout: pages
-      tags: ["recipe",recipes]
-
+      tags: [recipe]
+      category: [recipes]
+  -
+    scope:
+      path: "_posts/recipes/drinks"
+    values:
+      image: "dough-unsplash.jpg" 
+      tag: [recipe, drink]
+      category:  [recipes, drinks] 
