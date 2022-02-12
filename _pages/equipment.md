@@ -1,12 +1,13 @@
 ---
-title: Equipment
+link-title: Equipment
+title: Equipment I use on Stream
 icon: img/mixer-gradient.svg
 image: mixer-gradient.svg
 permalink: /equipment/
 ---
 {% include disclaimer.html %}
 
-It takes a lot to pull off a cooking stream here are links to some of the equipment and tools that I use. 
+It takes a lot to pull off a cooking stream here are links to some of the equipment, software, sites, and tricks that I use. 
 {: .large}
 
 ## Cooking Equipment 

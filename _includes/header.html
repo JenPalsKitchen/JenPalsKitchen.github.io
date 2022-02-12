@@ -13,8 +13,8 @@
               <li class="menu-item"><a href="{{site.baseurl}}/" class="menu-link"><img src="/{{site.home-icon}}" class="menu-logo" />Home</a></li>
               {% for page in site.pages %}
                 {% unless page.name == 'tags.html' or page.name == '404.html' %}
-              {% if page.title %}
-              <li class="menu-item"><a href="{{ page.url | prepend: site.baseurl }}" class="menu-link"><img src="/{{page.icon}}" class="menu-logo" />{{ page.title }}</a></li>
+              {% if page.link-title %}
+              <li class="menu-item"><a href="{{ page.url | prepend: site.baseurl }}" class="menu-link"><img src="/{{page.icon}}" class="menu-logo" />{{ page.link-title }}</a></li>
               {% endif %}
                 {% endunless %}
               {% endfor %}

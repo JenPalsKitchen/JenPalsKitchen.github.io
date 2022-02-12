@@ -1,6 +1,5 @@
-{% if page.myvar %}
+{% if include.myvar %}
 <!-- <pre id="jekyll-debug"></pre> -->
-test
 <!--
     site: 
     page: 
@@ -9,7 +8,8 @@ test
     paginator: 
 -->
 <script>
-    var obj = JSON.parse(decodeURIComponent("{{ myvar | jsonify | uri_escape }}"));
+    var str = "{{ include.myvar | jsonify | uri_escape  }}"
+    var obj = JSON.parse(decodeURIComponent(str));
     var prettyJson = JSON.stringify(obj, null, 4);  // Pretty-printed JSON (indented 4 spaces).
     //document.getElementById("jekyll-debug").textContent = prettyJson;
     console.log(prettyJson)

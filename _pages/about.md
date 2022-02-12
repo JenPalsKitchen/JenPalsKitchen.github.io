@@ -1,9 +1,9 @@
 ---
-title: About
+link-title: About
+title: Hi! I'm Jennifer
 icon: img/about.svg
 permalink: /about/
 ---
-# Hi! I'm Jennifer
 
 ![Jen]({{site.baseurl}}/img/20220128-JenBig.jpg){: .padding-all-default .float-left .col-12 .col-t-6}
 
