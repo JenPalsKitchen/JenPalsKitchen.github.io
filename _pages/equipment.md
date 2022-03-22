@@ -76,3 +76,5 @@ It takes a lot to pull off a cooking stream here are links to some of the equipm
 * [Streamlabs bot auto shout out tutorial](https://www.youtube.com/watch?v=ONHFth4eQtU)
 * [Add Patreon Alerts to StreamElements](https://www.youtube.com/watch?v=kHXXXF0DYBM)
 * [Treating each app differently for OBS Audio](https://github.com/bozbez/win-capture-audio/releases/) (ie chatbot/tts in my ears not on stream!)
+* [Amazon Associates Set Up](https://affiliate-program.amazon.com/welcome/getstarted) (how to get affiliate links)
+* [Amazon Influencer Storefront Set Up](https://affiliate-program.amazon.com/influencers)
