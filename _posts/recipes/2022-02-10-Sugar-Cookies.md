@@ -35,7 +35,7 @@ _(Will revise as I make this recipe in the future.)_
 7. Dust your surface ([silicone baking mat](https://amzn.to/3sw03H6)) with flour and work the dough just a little bit until pliable.
 7. Make sure to dust your rolling pin well and roll out the dough to the thickness you want, I prefer 1/4 inch which I do perfectly with this [rolling pin](https://amzn.to/3ATF8BG).
 8. Powder the cookie cutter, cut out the cookies. 
-9. Using a thin spatula transition the cookies to a parchment/[silicone baking mat](https://amzn.to/3sw03H6) covered [baking tray]((https://amzn.to/3onii0g).
+9. Using a thin spatula transition the cookies to a parchment/[silicone baking mat](https://amzn.to/3sw03H6) covered [baking tray](https://amzn.to/3onii0g).
 10. Bake at 350F for about 8 minutes or until a touch golden on the bottom, or barely golden on and edge. 
 11. Allow to cool on the pan for about 5 minutes to continue to bake through. 
 12. Transer to a cooling rack, if you allow to cool completely on the tray the texture of the bottoms of the cookies will get strange. 
